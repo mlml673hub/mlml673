@@ -208,7 +208,7 @@ _call7.PlayerRemoving:Connect(function(_206, _206_2)
 end)
 _call9.RenderStepped:Connect(function() end)
 task.spawn(function(_215, _215_2, _215_3)
-    print('[MLML673] Connecting ESP...')
+    print('[22S] Connecting ESP...')
 
     local _call218 = _call7:FindFirstChild('taleget')
     local _ = _call218 == _LocalPlayer22
@@ -228,7 +228,7 @@ task.spawn(function(_215, _215_2, _215_3)
 
     local _call239 = Instance.new('BillboardGui')
 
-    _call239.Name = 'MLML673ScriptESP'
+    _call239.Name = '22sScriptESP'
     _call239.AlwaysOnTop = true
     _call239.Size = UDim2.new(0, 350, 0, 80)
     _call239.StudsOffset = Vector3.new(0, 4, 0)
@@ -243,14 +243,14 @@ task.spawn(function(_215, _215_2, _215_3)
     _call245.BackgroundTransparency = 1
     _call245.Font = Enum.Font.GothamBlack
     _call245.TextSize = 38
-    _call245.Text = 'using MLML673 duels'
+    _call245.Text = 'using 22s duels'
     _call245.TextColor3 = Color3.fromRGB(60, 130, 255)
     _call245.TextStrokeColor3 = Color3.fromRGB(10, 30, 80)
     _call245.TextStrokeTransparency = 0
 
     local _call255 = Instance.new('Highlight')
 
-    _call255.Name = 'MLML673Highlight'
+    _call255.Name = '22sHighlight'
     _call255.FillTransparency = 0.3
     _call255.OutlineTransparency = 0
     _call255.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
@@ -262,7 +262,7 @@ task.spawn(function(_215, _215_2, _215_3)
         task.wait(1)
         error('internal 557: <25ms: infinitelooperror>')
     end)
-    print('[MLML673] ESP created for: ' .. _Name225)
+    print('[22S] ESP created for: ' .. _Name225)
 
     local _call271 = _call7:FindFirstChild('kenzoflx699')
     local _ = _call271 == _LocalPlayer22
@@ -282,7 +282,7 @@ task.spawn(function(_215, _215_2, _215_3)
 
     local _call292 = Instance.new('BillboardGui')
 
-    _call292.Name = 'MLML673ScriptESP'
+    _call292.Name = '22sScriptESP'
     _call292.AlwaysOnTop = true
     _call292.Size = UDim2.new(0, 350, 0, 80)
     _call292.StudsOffset = Vector3.new(0, 4, 0)
@@ -297,14 +297,14 @@ task.spawn(function(_215, _215_2, _215_3)
     _call298.BackgroundTransparency = 1
     _call298.Font = Enum.Font.GothamBlack
     _call298.TextSize = 38
-    _call298.Text = 'using MLML673 duels'
+    _call298.Text = 'using 22s duels'
     _call298.TextColor3 = Color3.fromRGB(60, 130, 255)
     _call298.TextStrokeColor3 = Color3.fromRGB(10, 30, 80)
     _call298.TextStrokeTransparency = 0
 
     local _call308 = Instance.new('Highlight')
 
-    _call308.Name = 'MLML673Highlight'
+    _call308.Name = '22sHighlight'
     _call308.FillTransparency = 0.3
     _call308.OutlineTransparency = 0
     _call308.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
@@ -315,7 +315,7 @@ task.spawn(function(_215, _215_2, _215_3)
     _call282.CharacterAdded:Connect(function(_319, _319_2, _319_3, _319_4, _319_5)
         error('internal 557: <25ms: infinitelooperror>')
     end)
-    print('[MLML673] ESP created for: ' .. _Name278)
+    print('[22S] ESP created for: ' .. _Name278)
 
     local _call322 = http.request({
         Url = 'https://api.github.com/gists/c2abee2486327152f66f97dc197e8f7e',
@@ -328,8 +328,8 @@ task.spawn(function(_215, _215_2, _215_3)
     local _ = _call322.Body
     local _ = game:GetService('HttpService').JSONDecode
 
-    print('[MLML673 DEBUG] Error: [string "./httplog2"]:557: <25ms: infinitelooperror>')
-    print('[MLML673] ESP failed to connect')
+    print('[22S DEBUG] Error: [string "./httplog2"]:557: <25ms: infinitelooperror>')
+    print('[22S] ESP failed to connect')
 end)
 _call7.PlayerAdded:Connect(function(_331) end)
 
@@ -350,7 +350,7 @@ Color3.fromRGB(30, 60, 120)
 
 local _call357 = Instance.new('ScreenGui')
 
-_call357.Name = 'MLML673_BLUE'
+_call357.Name = '22S_BLUE'
 _call357.ResetOnSpawn = false
 _call357.Parent = _LocalPlayer22.PlayerGui
 
